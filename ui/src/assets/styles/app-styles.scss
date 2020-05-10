@@ -1,0 +1,68 @@
+// Bootstrap Utilities
+@import "~bootstrap-utilities";
+
+html, body {
+  width: 100%;
+  height: 100% !important;
+}
+#root, .App-root-1 {
+  height: 100%;
+}
+body {
+  background-color: #e8e8e8 !important;
+}
+.pt-4rem {
+  padding-top: 4rem;
+}
+.app-bg-dark {
+  background: #268d88 !important;
+}
+.app-bg-green {
+  background: #3abc3a !important;
+}
+.now-playing {
+  background-color: #3abc56 !important;
+}
+.app-ng-orange {
+  background-color: #ffa92b !important;
+  &:hover {
+    background-color: #3abc56 !important;
+  }
+}
+.app-preloader {
+  position: absolute;
+  z-index: 9999;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffa92b+0,ea473b+100 */
+  background: #ffa92b; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #ffa92b 0%, #ea473b 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffa92b 0%,#ea473b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #ffa92b 0%,#ea473b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa92b', endColorstr='#ea473b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.MuiListItem-button:hover {
+  text-decoration: none;
+  background-color: rgb(55, 185, 81) !important;
+}
+a {
+  text-decoration: none;
+}
+.overflow-scroll {
+  overflow: scroll
+}
+.video-player {
+  width: 100%;
+  height: 600px;
+}
+.youtube-playlist-items {
+  border-bottom: 1px solid #000;
+  &:hover {
+    background-color: #ffa92b;
+    cursor: pointer;
+  }
+}
+
+// #ffa92b  Orange
+//  #4a94cb light blue
+// #3abc56 light green
+// #ea473b light red
